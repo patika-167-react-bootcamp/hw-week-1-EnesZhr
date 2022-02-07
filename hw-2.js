@@ -1,7 +1,7 @@
 const array = ["AUDI","bmw","MERCEDES"];
 
 Array.prototype.includesCI = function (val) {
-  return this.some((i) => i.toLowerCase() == val.toLowerCase())
+  return this.some((i) => i.toLowerCase() === val.toLowerCase())
   
 }
 
